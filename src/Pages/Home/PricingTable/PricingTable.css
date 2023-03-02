@@ -1,0 +1,92 @@
+.pricing-table {
+    background: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.pricing-table .price-value {
+    color: #EF3E36;
+    margin-bottom: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.pricing-table.blue .price-value {
+    color: #1CA4B9;
+}
+
+.pricing-table.green .price-value {
+    color: #e4ac1e;
+}
+
+.pricing-table .currency {
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+.price-value .amount {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.pricing-content ul {
+    color: #6f6f6f;
+    line-height: 50px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.pricing-content ul li {
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.1);
+}
+
+.pricing-content ul li:last-child {
+    border-bottom: none;
+}
+
+.Sign-Up a {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #EF3E36;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-table.blue .Sign-Up a {
+    background: #1CA4B9;
+}
+
+.pricing-table.green .Sign-Up a {
+    background: #e4ac1e;
+}
+
+.Sign-Up a:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: inline-block;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    transform: translate(0, 100%);
+    transition: all .6s ease-in-out;
+    opacity: 0;
+}
+
+.Sign-Up a:hover:before {
+    opacity: 1;
+    transform: translate(0, -100%);
+}
+
+@media screen and (max-width:990px) {
+    .pricing-table {
+        margin-bottom: 30px;
+    }
+}

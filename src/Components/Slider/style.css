@@ -1,0 +1,74 @@
+@media only screen and (max-width: 500px) {
+  .swiper {
+    height: 300px;
+  }
+
+  .swiper img {
+    height: 100%;
+    width: 150%;
+  }
+}
+
+.waveContainer {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.viewBox {
+  height: 100%;
+  width: 100%;
+}
+
+.path {
+  stroke: none;
+  fill: rgb(237, 115, 115);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+/* .geeks {
+  padding: 200px;
+  text-align: center;
+}
+
+banner-back {
+  width: 100%;
+  min-height: 300px;
+}
+
+.pattern {
+  position: relative;
+  background-color: #3bb78f;
+  background-image: linear-gradient(315deg,
+      #3bb78f 0%, #0bab64 74%);
+}
+
+.pattern:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background: url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+
+.banner-back {
+  display: block;
+  position: relative;
+  top: -2px;
+  height: 500px;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1519 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(111, 52, 142, 1)" d="M 0 500 C 92.5 500 92.5 425 185 425 L 185 425 L 185 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(111, 52, 142, 1)" d="M 184 425 C 309.5 425 309.5 499 435 499 L 435 499 L 435 0 L 184 0 Z" stroke-width="0"></path> <path fill="rgba(111, 52, 142, 1)" d="M 434 499 C 557 499 557 430 680 430 L 680 430 L 680 0 L 434 0 Z" stroke-width="0"></path><path fill="rgba(111, 52, 142, 1)" d="M 679 430 C 810 430 810 497 941 497 L 941 497 L 941 0 L 679 0 Z" stroke-width="0"></path><path fill="rgba(111, 52, 142, 1)" d="M 940 497 C 1052.5 497 1052.5 402 1165 402 L 1165 402 L 1165 0 L 940 0 Z" stroke-width="0"></path><path fill="rgba(111, 52, 142, 1)" d="M 1164 402 C 1342 402 1342 502 1520 502 L 1520 502 L 1520 0 L 1164 0 Z" stroke-width="0"></path><path fill="rgba(111, 52, 142, 1)" d="M 1519 502 C 1529 502 1529 56 1539 56 L 1539 56 L 1539 0 L 1519 0 Z" stroke-width="0"></path><path fill="rgba(111, 52, 142, 1)" d="M 1538 56 C 1547.5 56 1509.5 500 1519 500 L 1519 500 L 1519 0 L 1538 0 Z" stroke-width="0"></path></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width:1502px) {
+  .banner-back {
+    background-size: contain;
+  }
+}
